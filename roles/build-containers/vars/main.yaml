@@ -24,6 +24,7 @@ exclude_containers:
     - influxdb
   ussuri: *exclude_containers
   train: *exclude_containers
+    - nova-serialproxy
   stein:
     - opendaylight
   rocky:
